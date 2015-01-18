@@ -1,0 +1,5 @@
+name: Hub
+version: 1.0
+main: eagle.nest.hub.main.Hub
+author: Phase(Phasesaber)
+description: Hub
