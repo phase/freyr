@@ -4,5 +4,7 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="F:/Plugins/jars/ProtocolLib-3.4.0.jar"/>
 	<classpathentry kind="lib" path="F:/Plugins/jars/craftbukkit-1.8.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GameAPI"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/IPUtils"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
