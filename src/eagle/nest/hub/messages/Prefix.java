@@ -2,7 +2,7 @@ package eagle.nest.hub.messages;
 
 public enum Prefix {
 	
-	Join("§aJOIN");
+	Join("§a§lJOIN");
 	
 	String pre;
 	

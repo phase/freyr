@@ -17,9 +17,11 @@ public class HubListener implements Listener {
 		Player p = e.getPlayer();
 		IPInfo.IPData s = IPInfo.getIPData(IPInfo.getPlayerIP(p));
 		MessageManager.broadcast(Prefix.Join, p.getName() + " joined from " +
-				s.getCity() + ", " + 
 				s.getRegion() + ", " + 
 				s.getCountryName());
+		IPInfo.IPDataWeather weather = s.getWeatherData();
+		p.sendMessage("Your weather: " + weather.getWeatherName());
+		p.sendMessage(s.getCountryCode() + ", " + s.getCountryName() + ", " + s.getLatitude() + ":" + s.getLongitude() + ", " + s.getRegion() + ", " + s.getTimezone() + ", " + s.getZip());
 	}
 	
 }
