@@ -53,7 +53,7 @@ public enum Skull {
     PUMPKIN("MHF_Pumpkin"),
     TNT("MHF_TNT"),
     DYNAMITE("MHF_TNT2");
-
+    
     private static final Base64 base64 = new Base64();
     private String id;
 
