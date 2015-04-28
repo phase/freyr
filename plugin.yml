@@ -1,5 +1,5 @@
-name: Hub
+name: freyr
 version: 1.0
-main: eagle.nest.hub.main.Hub
+main: eagle.nest.hub.Hub
 author: Phase(Phasesaber)
-description: Hub
+description: The main plugin for The Eagle's Nest
