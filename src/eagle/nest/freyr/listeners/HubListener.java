@@ -14,7 +14,7 @@ public class HubListener implements Listener {
 	public void join(PlayerJoinEvent e) {
 		Player p = e.getPlayer();
 		IPInfo.IPData s = IPInfo.getIPData(IPInfo.getPlayerIP(p));
-		e.setJoinMessage(Prefix.Join.toString() + "ง8>งr " + p.getName() + " joined from " + s.getRegion() + ", " + s.getCountryName());
+		e.setJoinMessage(Prefix.Join.toString() + "ยง8>ยงr " + p.getName() + " joined from " + s.getCountryName() + "!");
 	}
 
 }
