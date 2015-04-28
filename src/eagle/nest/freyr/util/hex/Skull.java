@@ -1,4 +1,4 @@
-package eagle.nest.hub.util.hex;
+package eagle.nest.freyr.util.hex;
 
 import com.mojang.authlib.GameProfile;
 import com.mojang.authlib.properties.Property;

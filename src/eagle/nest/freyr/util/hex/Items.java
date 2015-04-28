@@ -1,4 +1,4 @@
-package eagle.nest.hub.util.hex;
+package eagle.nest.freyr.util.hex;
 
 import com.google.common.collect.Lists;
 import org.apache.commons.lang.WordUtils;

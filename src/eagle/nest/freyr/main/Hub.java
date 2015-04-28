@@ -1,10 +1,10 @@
-package eagle.nest.hub.main;
+package eagle.nest.freyr.main;
 
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import eagle.nest.hub.listeners.HubListener;
+import eagle.nest.freyr.listeners.HubListener;
 
 public class Hub extends JavaPlugin {
 	

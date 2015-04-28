@@ -1,4 +1,4 @@
-package eagle.nest.hub.messages;
+package eagle.nest.freyr.messages;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;

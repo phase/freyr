@@ -1,4 +1,4 @@
-package eagle.nest.hub.util.hex;
+package eagle.nest.freyr.util.hex;
 
 import org.bukkit.ChatColor;
 
