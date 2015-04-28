@@ -1,4 +1,4 @@
-package eagle.nest.freyr.main;
+package eagle.nest.freyr;
 
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;
